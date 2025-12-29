@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title> My portfolio </title>
+  <link rel="stylesheet" href="abhi.css">
+</head>
+<body>
+  <header>
+<nav class="navbar">
+  <h2 class="logo"> Abhishek portfolio.</h2><br><br><br><br><br><br><br>
+  <ul class="menu">
+    <li onclick="showPage('home')">Home</li>
+    <li onclick="showPage('about')">About</li>
+    <li onclick="showPage('skills')">Skills</li>
+    <li onclick="showPage('projects')">project</li>
+    <li onclick="showPage('contact')">Contact</li>
+  </ul>
+</nav>
+</header>
+
+<!-- HOME -->
+<section id="home" class="page show">
+  <div class="home-content">
+
+    <h1>Hi, I'm <span>Web Developer</span></h1>
+    <h2>Frontend Developer</h2>
+
+    <p>
+      I design and build modern, responsive and user-friendly
+      websites using HTML, CSS and JavaScript.
+    </p>
+
+    <div class="home-buttons">
+      <a href="#contact" class="btn primary">Hire Me</a>
+      <a href="Abhishek_CV.pdf" download class="btn secondary">Download CV</a>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ABOUT -->
+<section id="about" class="page">
+  <h1>About Me</h1>
+  <ul class="list">
+    <li>Passionate Frontend Developer</li>
+    <li>Strong knowledge of HTML, CSS & JavaScript</li>
+    <li>Experience in responsive web design</li>
+    <li>Good understanding of DOM manipulation</li>
+    <li>Focus on clean & maintainable code</li>
+    <li>Hands-on project based learning</li>
+    <li>Comfortable with Git & GitHub</li>
+    <li>Learning DevOps fundamentals</li>
+    <li>Basic Linux command knowledge</li>
+    <li>Goal-driven and continuous learner</li>
+  </ul>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="page">
+  <h1>My Skills</h1>
+  <div class="skills-grid">
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>JavaScript</span>
+    <span>Responsive Design</span>
+    <span>Git</span>
+    <span>GitHub</span>
+    <span>Linux Basics</span>
+    <span>DevOps Basics</span>
+    <span>CI/CD (Learning)</span>
+    <span>Problem Solving</span>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="page">
+  <h1>My Projects</h1>
+  <div class="projects">
+    <div class="card">
+      <h3>Calculator App</h3>
+      <p>Calculator using HTML, CSS & JavaScript.</p>
+    </div>
+    <div class="card">
+      <h3>Password Generator</h3>
+      <p>Strong random password generator using JavaScript.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="page">
+  <h1>Contact Me</h1>
+  <form class="contact-form">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Your Message" required></textarea>
+    <button type="submit">Send</button>
+  </form>
+</section>
+
+
+<script src="abhi.js"></script>
+</body>
+</html>
+
+
